@@ -1,12 +1,12 @@
 package usecase
 
 import (
-	"github.com/watshim-b/cln-at-go/interface/web/form"
+	form "github.com/watshim-b/cln-at-go-sample/form/web"
 )
 
 type LoginUsecase interface {
 
 	// ログイン機能を提供します
-	Login(f form.LginForm) error
-
+	Login(f form.LoginForm) error
+	
 }

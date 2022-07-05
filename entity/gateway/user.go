@@ -1,23 +1,23 @@
 package entity
 
 import (
-	"github.com/watshim-b/cln-at-go/ent"
-	"github.com/watshim-b/cln-at-go/interface/web/form"
+	"github.com/watshim-b/cln-at-go-sample/ent"
+	form "github.com/watshim-b/cln-at-go-sample/form/web"
 )
 
 type UserEntity interface {
 	// formで指定された情報で認証できるかを確認する
-	Auth(f form.LoginForm) (bool, error)
+	Auth(f form.UserForm) (bool, error)
 
 	// formで指定された条件に合致するUserEntityを返却する
-	Query(f form.LoginForm) ([]ent.User, error)
+	Query(f form.UserForm) ([]*ent.User, error)
 
 	// formで指定されたデータを作成する
-	Create(f form.LoginForm) error
+	Create(f form.UserForm) error
 
 	// formで指定されたデータを作成する（バルクインサート）
-	Creates(f []form.LoginForm) error
+	Creates(f []form.UserForm) error
 
 	// formで指定されたデータを更新する（idをキー値として更新をかける）
-	Update(f form.LoginForm) error
+	Update(f form.UserForm) error
 }

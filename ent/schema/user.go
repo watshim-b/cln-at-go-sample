@@ -16,10 +16,11 @@ type User struct {
 func (User) Fields() []ent.Field {
 	return []ent.Field{
 		field.Int("id").Unique(),
-		field.Int("age"),
 		field.String("name"),
+		field.Int("active"),
 		field.Time("created_at").Default(time.Now),
 		field.Time("updated_at").Default(time.Now),
+		field.String("remark"),
 	}
 }
 

@@ -5,8 +5,8 @@ package ent
 import (
 	"time"
 
-	"github.com/watshim-b/cln-at-go/ent/schema"
-	"github.com/watshim-b/cln-at-go/ent/user"
+	"github.com/watshim-b/cln-at-go-sample/ent/schema"
+	"github.com/watshim-b/cln-at-go-sample/ent/user"
 )
 
 // The init function reads all schema descriptors with runtime code

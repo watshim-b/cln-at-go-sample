@@ -9,8 +9,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/watshim-b/cln-at-go/ent/predicate"
-	"github.com/watshim-b/cln-at-go/ent/user"
+	"github.com/watshim-b/cln-at-go-sample/ent/predicate"
+	"github.com/watshim-b/cln-at-go-sample/ent/user"
 )
 
 // UserDelete is the builder for deleting a User entity.

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/watshim-b/cln-at-go/ent"
+	"github.com/watshim-b/cln-at-go-sample/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

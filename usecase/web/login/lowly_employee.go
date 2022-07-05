@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"github.com/watshim-b/cln-at-go/interface/web/form"
+	form "github.com/watshim-b/cln-at-go-sample/form/web"
 )
 
 // 一般職向けのLogin機能を実装するUsecaseです
@@ -13,6 +13,6 @@ func NewLowlyEmployeUsecase() *LowlyEmployeUsecase {
 }
 
 // 一般職のログインに関するusecase
-func (u *LowlyEmployeUsecase) Login(f form.LginForm) error {
+func (u *LowlyEmployeUsecase) Login(f form.LoginForm) error {
 	return nil
 }

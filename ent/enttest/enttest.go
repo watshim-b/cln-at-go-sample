@@ -5,9 +5,9 @@ package enttest
 import (
 	"context"
 
-	"github.com/watshim-b/cln-at-go/ent"
+	"github.com/watshim-b/cln-at-go-sample/ent"
 	// required by schema hooks.
-	_ "github.com/watshim-b/cln-at-go/ent/runtime"
+	_ "github.com/watshim-b/cln-at-go-sample/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
 )

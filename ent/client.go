@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/watshim-b/cln-at-go/ent/migrate"
+	"github.com/watshim-b/cln-at-go-sample/ent/migrate"
 
-	"github.com/watshim-b/cln-at-go/ent/user"
+	"github.com/watshim-b/cln-at-go-sample/ent/user"
 
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
